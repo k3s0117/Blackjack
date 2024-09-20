@@ -1,0 +1,43 @@
+ Nombre: JugarBlackjack
+
+1. Declarar variables:
+    - cartaJugador
+    - cartaCrupier
+    - sumaJugador
+    - sumaCrupier
+2. Inicializar cartas:
+    - cartaJugador = obtener carta aleatoria
+    - cartaCrupier = obtener carta aleatoria
+    - sumaJugador = cartaJugador
+    - sumaCrupier = cartaCrupier
+3. Mostrar cartas iniciales:
+    - Mostrar cartaJugador
+    - Mostrar cartaCrupier
+4. Jugar jugador:
+    - Mientras sumaJugador < 21:
+        - Preguntar si quiere otra carta
+        - Si sí:
+            - Obtener carta aleatoria
+            - Sumar carta a sumaJugador
+            - Mostrar carta y suma
+        - Si no:
+            - Salir del bucle
+5. Jugar crupier:
+    - Mientras sumaCrupier < 17:
+        - Obtener carta aleatoria
+        - Sumar carta a sumaCrupier
+6. Mostrar resultados:
+    - Mostrar sumaJugador
+    - Mostrar sumaCrupier
+7. Determinar ganador:
+    - Si sumaJugador > 21:
+        - Mostrar "Perdiste"
+    - Si sumaCrupier > 21:
+        - Mostrar "Ganaste"
+    - Si sumaJugador > sumaCrupier:
+        - Mostrar "Ganaste"
+    - Si sumaJugador < sumaCrupier:
+        - Mostrar "Perdiste"
+    - Si sumaJugador = sumaCrupier:
+        - Mostrar "Empate"
+
